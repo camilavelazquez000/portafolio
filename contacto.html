@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body id="contacto">
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container px-0 mx-0 ps-sm-5 mx-sm-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0 ms-sm-5 ps-sm-5">
+                            <!--<div class="nav-link">
+                                <a href="#" class="btn-rojo p-2">Descarga mi CV <i class="fas fa-download"></i></a>
+                            </div>-->
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">ES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="en/contact.html">EN</a>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="conteiner">
+        <div class="row mb-4 mt-5 mx-sm-5 px-1">
+            <div class="col-12">
+                <h1>Contacto</h1>
+            </div>
+        </div>
+        <div class="row mx-sm-5 px-2">
+            <div class="col-12 col-sm-6">
+                <p>Te invito a que te contactes enviandome mensaje o bien por whatsapp</p>
+                <p class="pt-3">Escaneá el código QR y envianos un mensaje!</p>
+                <img src="imagenes/contacto-wspp.jpeg" alt="código QR" width="140" class="mb-5">
+            </div>
+            <div class="col-12 col-sm-6">
+                <form action="" method="POST">
+                    <div>
+                        <input type="text" name="txtNombre" id="txtNombre" class="form-control mb-3 border"
+                            placeholder="Nombre">
+                    </div>
+                    <div>
+                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo"
+                            class="form-control mb-3">
+                    </div>
+                    <div>
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Telefono/Whatsapp"
+                            class="form-control mb-3">
+                    </div>
+                    <div>
+                        <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aquí tu mensaje"
+                            class="form-control mb-3" cols="30" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" id="btnEnviar" name="btnEnviar" class="btn mt-4">ENVIAR</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-12 col-sm-3">
+                    Sponsor <a href="Depcsuite.com">Depc suite</a>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <a href="mailto:camilavelazquez000@gmail.com">Camilavelazquez000@gmail.com</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=541150412652" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
